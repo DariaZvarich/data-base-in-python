@@ -118,8 +118,6 @@ CREATE TABLE comments (
   author_name text
   content text
 
-  name text,
-
 -- The foreign key name is always {other_table_singular}venue_id
   post_id int,
   constraint fk_post foreign key(post_id)

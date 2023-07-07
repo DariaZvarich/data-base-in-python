@@ -19,5 +19,5 @@ def test_equality():
     assert post_1 == post_2
     
 def test_formats():
-    user = Post(1, "My Username", "My Content", 2, 1)
-    assert str(post) == "Post(1, My Title, My Content , 2, 1)"
+    post = Post(1, "My Title", "My Content", 2, 1)
+    assert str(post) == "Post(1, My Title, My Content, 2, 1)"

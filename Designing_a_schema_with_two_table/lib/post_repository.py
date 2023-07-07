@@ -1,4 +1,4 @@
-from lib.post_repository import Post
+from lib.post import Post
 
 class PostRepository:
     def __init__(self, connection):
